@@ -1,0 +1,149 @@
+.bgimage{
+    background-image: url(../img/Rectangle\ 2.png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.containerOne {
+    margin: 0 auto;
+    height: 800px;
+    margin-bottom: 150px;
+}
+
+.header-nav {
+    position: relative;
+    background-color: rgba(0, 91, 193, 0.6);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.logo__link {
+    display: flex;
+}
+
+.logo {
+    left: 10px;
+    padding: 11px 0px;
+    max-width: 9vw;
+    position: absolute;
+}
+
+.logo__text {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+    letter-spacing: 0.03em;
+    /* white */
+    color: #FFFFFF;
+}
+
+.nav {
+    margin: 0 auto;
+    display: flex;
+    max-width: 500px;
+    align-self: center;
+    gap: 28px;
+}
+
+.nav__item {
+    list-style: none;
+    transition: 0.5s;
+}
+
+.nav__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    /* white */
+    color: #FFFFFF;
+}
+
+.nav__item:hover {
+    transform: scale(1.25);
+    font-weight: bold;
+}
+
+
+.header__wrapper{
+    display: flex;
+    max-width: 783px;
+    margin: 0 auto;
+}
+.main__bg {
+    margin-left: -25%;
+    width: 544px;
+    height: 720px;
+    background-color: rgba(0, 91, 193, 0.6);
+}
+
+.main__content {
+    margin-top: 200px;
+    margin-left: -30%;
+}
+
+.header__title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.main__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 10px 50px;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #005BC1;
+}
+.btn__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+@media (max-width:1500px){
+    .main__bg{
+        margin-left: -12.5%;
+        width: 444px;
+    }
+}
+@media (max-width:1320px){
+    .main__bg{
+        margin-left: -2%;
+        width: 344px;
+    }
+}
